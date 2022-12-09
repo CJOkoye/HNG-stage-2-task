@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin-top: 44px;
+}
+
+h{
+    font-family: "Inter";
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.share_button{
+    position: absolute;
+    padding-left: 1000px;
+}
+
+.mobile_share{
+    visibility: hidden;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    margin-top: 24px;
+}
+
+.opt{
+    margin-top: 56px;
+    margin-left: 144px;
+    margin-right: 144px;
+}
+
+.options{
+    background-color: #EAECF0;
+    margin-bottom: 24px;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+}
+
+.options:hover{
+    transition: 500ms;
+    transition-timing-function: ease-in-out;
+    text-decoration: underline;
+    box-shadow: 4px 4px grey;
+    cursor: pointer;  
+    color: white;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#slack{
+    padding-right: 12px;
+}
+
+#social{
+    padding-left: 12px;
+}
+
+.social_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
+#zuri{
+    padding-left: 112px;
+}
+
+#I4G{
+    padding-right: 112px;
+}
+
+.Footer_1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 112px;
+    padding-right: 0;
+    padding-top: 56px;
+    margin-bottom: 56px;
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .opt{
+        margin-top: 56px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .share_button{
+        visibility: hidden;
+    }
+
+    .mobile_share{
+        position: absolute;
+        right: 20px;
+        visibility: visible;
+    }
+    .Footer_1{
+        display: block;
+        justify-content: space-between;
+        margin-left: 16px;
+        margin-bottom: 32px;
+    }
+  }
